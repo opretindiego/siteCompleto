@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 25px;
+    
+}
+
+hr{
+    background-color: rgb(24, 139, 233);
+    border: none;
+}
+
+.box{
+    width: 275px;
+    float: left;
+    height: 235px;
+    margin-top: 25px;
+}
+
+.boxPrincipal{
+    border: 1px solid rgb(24, 139, 233);
+    border-radius: 10px;
+    height: 225px;
+    width: 1050px;
+    margin-top: 25px;
+}
+
+.boxPrincipal:hover{
+    background-color: rgb(24, 139, 233);
+}
+
+.imgPrincipal{
+    float: left;
+}
+
+.textPrincipal{
+    float: right;
+}
+
+.textPrincipal:hover{
+    color: black;
+}
+
+article{
+    float: left;
+}
+
+section{
+    text-align: center;
+    padding: 10px;
+    margin-left: 125px;
+}
+
+section img{
+    max-width: 200px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:  rgb(24, 139, 233);
+}
+
+.principal{
+    width: 80%;
+}
+
+.principal img{
+    float: left;
+    width: 500px;   
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    
+    max-width: 960px;
+    margin: auto;
+    background-image: url(../Imagem/img-background.png);
+
+}
+.imgs{
+    width: 500px;
+    height: 250px;
+    
+}
+.imgs{
+    border-radius: 12px; /*deixa a borda redonda*/
+    padding: 0 15px;
+    overflow: hidden;
+    position:relative;
+    transition: all 1s linear; 
+
+}
+
+.imgs:hover{
+box-shadow: 0 0 8px #e6dd96;
+border: 1px solid #fff;
+
+}
+.imgs:hover{
+    scale: 1.1;
+    width: auto;
+}
+
+
+

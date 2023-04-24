@@ -1,0 +1,79 @@
+*
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+article{
+    float: left;
+    max-width: 700px;
+    margin-left:125px;
+    margin-right: 45px;
+    padding: 20px;
+}
+
+img{
+    max-width: 700px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+aside{
+    border: 1px white solid;
+    float: right;
+    padding: 5px;
+    width: 300px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+
+.tituloPrincipal{
+    font-size: 25px;
+    margin-top: 100px;
+    
+}
+
+.lula,.grz,.paraguai{
+    background-color: bisque;
+}
+
+a{
+    text-decoration: white;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+hr{
+    background-color: rgb(24, 139, 233);
+    border: none;
+}
+
+.anuncio{
+    margin-right: 50px;
+}
+.anuncio2{
+    margin-right: 25px;
+}
+
+section p {
+    line-height: 25px;
+}
+
